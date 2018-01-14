@@ -115,14 +115,76 @@
   <!-- <section class="p-3" id="portfolioBanner">
     <div class="container" id="btn-container">
       <div class="btn btn-primary" onClick="filterSelection('all')">Show All</div>
-      <div class="btn btn-primary" onClick="filterSelection('school')">School</div>
-      <div class="btn btn-primary" onClick="filterSelection('web')">Web App</div>
-      <div class="btn btn-primary" onClick="filterSelection('mobile')">Mobile App</div>
+      <div class="btn btn-primary" onClick="filterSelection('school-project')">School</div>
+      <div class="btn btn-primary" onClick="filterSelection('web-project')">Web App</div>
+      <div class="btn btn-primary" onClick="filterSelection('mobile-project')">Mobile App</div>
     </div>
   </section> -->
 
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
+  <section class="p-5" id="portfolio">
+    <div class="container-fluid p-1">
+      <div class="row text-justify">
+        <div class="col-sm-4 col-sm-4" id="school-project">
+          <a class="portfolio-box" href="https://github.com/ECSE321-Winter2017-McGill/Group10">
+            <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/ecse-321-group10.png">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  School
+                </div>
+                <div class="project-name">
+                  Full Stack SW Engineering Project
+                </div>
+              </div>
+            </div>
+          </a>
+          <p class="img-thumbnail">
+            <b>Winter 2017</b>: Multi-platform software system to create and manage teaching assistant job offers for McGill
+            courses developed for Desktop, and Mobile in Java and for web in PHP.</p>
+        </div>
+
+        <div class="col-sm-4 col-sm-4" id="school-project">
+          <a class="portfolio-box" href="https://github.com/matthewlesko01/DSD-Labs-and-Project">
+            <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/fpga-cyclone-2.jpg">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  School
+                </div>
+                <div class="project-name">
+                  Digital Systems Design Project
+                </div>
+              </div>
+            </div>
+          </a>
+          <p class="img-thumbnail">
+            <b>Fall 2017</b>: Design of Digital Circuits and Programming of FPGA board to enable user to play a game of blackjack
+            with a computer opponent on the same FPGA board.</p>
+        </div>
+
+        <!-- Steve Jobs Tribute Page -->
+        <div class="col-sm-4 col-sm-4" id="web-project">
+          <a class="portfolio-box" href="https://codepen.io/sudo_privilege/full/GyNjXY">
+            <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/tribute-page.PNG">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Web
+                </div>
+                <div class="project-name">
+                  Front End Tribute Page
+                </div>
+              </div>
+            </div>
+          </a>
+          <p class="img-thumbnail">
+            <b>Winter 2018</b>: Front-end web project involving the design of a simple tribute page to Steve Jobs in HTML and
+            CSS. Part of a Front-end development course on freecodecamp.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid p-0">
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
@@ -215,7 +277,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="text-center p-5">
       <a class="btn btn-primary js-scroll-trigger btn-xl sr-button" href="#experience">Experience</a>
     </div>
@@ -390,8 +452,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
-
-  <!-- <script type="text/javascript" src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script> -->
 
 </body>
 
