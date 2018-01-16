@@ -87,7 +87,7 @@
         <div class="col-lg-8 mx-auto">
           <h2 class="section-heading text-white text-center mb-4">About the Creator</h2>
           <h4 class="text-white text-center mb-4">Matthew Lesko</h4>
-          <hr class="light left">
+          <hr class="light">
           <!-- <hr class="light my-4"> -->
           <p class="text-faded text-justify mb-4 ">Born and raised in Montreal. I am presently enrolled as a Computer Engineering Student at McGill University - Entering
             Class of 2015. I have recently completed a work term with Ericsson Canada Inc as a software developer intern
@@ -104,7 +104,7 @@
             <a class="text-white wide-padding" href="mailto:matthew.lesko-krleza@mail.mcgill.ca">
               <i class="fa fa-envelope fa-inverse fa-lg sr-icons" aria-hidden="true"></i> Email</a>
           </div>
-          <div class="text-center top-padding">
+          <div class="text-center padding-top">
             <a class="btn btn-light btn-xl js-scroll-trigger sr-button" href="#portfolio">Portfolio</a>
           </div>
         </div>
@@ -112,19 +112,16 @@
     </div>
   </section>
 
-  <!-- <section class="p-3" id="portfolioBanner">
-    <div class="container" id="btn-container">
+  <section class="p-5" id="portfolio">
+    <!-- <div class="container text-center padding-bottom" id="btn-container">
       <div class="btn btn-primary" onClick="filterSelection('all')">Show All</div>
       <div class="btn btn-primary" onClick="filterSelection('school-project')">School</div>
-      <div class="btn btn-primary" onClick="filterSelection('web-project')">Web App</div>
-      <div class="btn btn-primary" onClick="filterSelection('mobile-project')">Mobile App</div>
-    </div>
-  </section> -->
-
-  <section class="p-5" id="portfolio">
+      <div class="btn btn-primary" onClick="filterSelection('web/mobile-project')">Web/Mobile Apps</div>
+      <div class="btn btn-primary" onClick="filterSelection('other-project')">Other</div>
+    </div> -->
     <div class="container-fluid p-1">
       <div class="row text-justify">
-        <div class="col-sm-4 col-sm-4" id="school-project">
+        <div class="col-sm-4 col-sm-4 project" id="school-project">
           <a class="portfolio-box" href="https://github.com/ECSE321-Winter2017-McGill/Group10">
             <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/ecse-321-group10.PNG">
             <div class="portfolio-box-caption">
@@ -143,7 +140,7 @@
             courses developed for Desktop, and Mobile in Java and for web in PHP.</p>
         </div>
 
-        <div class="col-sm-4 col-sm-4" id="school-project">
+        <div class="col-sm-4 col-sm-4 project" id="school-project">
           <a class="portfolio-box" href="https://github.com/matthewlesko01/DSD-Labs-and-Project">
             <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/fpga-cyclone-2.jpg">
             <div class="portfolio-box-caption">
@@ -158,12 +155,12 @@
             </div>
           </a>
           <p class="img-thumbnail">
-            <b>Fall 2017</b>: Design of Digital Circuits and Programming of FPGA board to enable user to play a game of blackjack
-            with a computer opponent on the same FPGA board.</p>
+            <b>Fall 2017</b>: Design of Digital Circuits and Programming of FPGA board. The requirement was to implement a blackjack
+            game on the FPGA board against a computer-programmed opponent.</p>
         </div>
 
         <!-- Steve Jobs Tribute Page -->
-        <div class="col-sm-4 col-sm-4" id="web-project">
+        <div class="col-sm-4 col-sm-4 project" id="web-project">
           <a class="portfolio-box" href="https://codepen.io/sudo_privilege/full/GyNjXY">
             <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/tribute-page.PNG">
             <div class="portfolio-box-caption">
@@ -182,6 +179,26 @@
             CSS. Part of a Front-end development course on freecodecamp.com</p>
         </div>
       </div>
+      <!-- <div class="row text-justify">
+        <div class="col-sm-4 col-sm-4" id="web-project">
+          <a class="portfolio-box" href="https://codepen.io/sudo_privilege/full/GyNjXY">
+            <img class="img-fluid img-thumbnail" src="img/portfolio/fullsize/tribute-page.PNG">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Web
+                </div>
+                <div class="project-name">
+                  Front End Tribute Page
+                </div>
+              </div>
+            </div>
+          </a>
+          <p class="img-thumbnail">
+            <b>Winter 2018</b>: Front-end web project involving the design of a simple tribute page to Steve Jobs in HTML and
+            CSS. Part of a Front-end development course on freecodecamp.com</p>
+        </div>
+      </div> -->
     </div>
 
     <!-- <div class="container-fluid p-0">
@@ -320,7 +337,7 @@
     <div class="container">
       <h2 class="section-heading text-center text-white mb-4">Technical Skills</h2>
       <hr>
-      <h4 class="text-white p-2">Languages</h4>
+      <h4 class="text-white text-center p-2">Languages</h4>
       <div class="row text-center">
         <div class="col-sm-3 col-sm-3">
           <i class="devicon-java-plain text-primary devicon-md"></i>
@@ -349,7 +366,7 @@
           <p class="text-white">Javascript: 1+ Month</p>
         </div>
       </div>
-      <h4 class="text-white p-2">Technologies</h4>
+      <h4 class="text-white text-center p-2">Technologies</h4>
       <div class="row text-center">
         <div class="col-sm-3 col-sm-3">
           <h3 class="text-primary text-uppercase">Eclipse</h3>
@@ -392,7 +409,7 @@
           <p class="text-white">JUnit: 4 Months</p>
         </div>
       </div>
-      <div class="text-center top-padding">
+      <div class="text-center padding-top">
         <a class="btn btn-light btn-xl js-scroll-trigger sr-button" href="#awards">Awards</a>
       </div>
     </div>
@@ -406,7 +423,9 @@
         <div class="col-m-12">
           <ul>
             <li>
-              <b>May 2017 - Present: </b>Member of McHacks Coding Community. Social committee that organizes McHacks (McGill hackathon), programming workshops, tech-related seminars, and social events geared towards Computer Science and Engineering students.
+              <b>May 2017 - Present: </b>Member of McHacks Coding Community. Social committee that organizes McHacks (McGill
+              hackathon), programming workshops, tech-related seminars, and social events geared towards Computer Science
+              and Engineering students.
             </li>
             <li>
               <b>November 2017: </b>Participated in McGill Hackathon (Datadive)
@@ -452,6 +471,8 @@
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
 
+  <!-- Filtering Script -->
+  <!-- <script src="js/filtering.js"></script> -->
 </body>
 
 </html>

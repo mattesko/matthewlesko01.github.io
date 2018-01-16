@@ -278,6 +278,10 @@ td:hover {
   padding-right:20px;
 }
 
-.top-padding {
+.padding-top {
   padding-top:45px;
+}
+
+.padding-bottom {
+  padding-bottom:45px;
 }
